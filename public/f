@@ -1,0 +1,29 @@
+Develop a comprehensive strategy to optimize web pages for fast loading performance. Implement the following techniques:
+
+1. Image Optimization:
+- Compress all images without quality loss using WebP format
+- Implement lazy loading for below-the-fold images
+- Set proper width/height attributes to prevent layout shifts
+
+2. Code Optimization:
+- Minify HTML, CSS, and JavaScript files
+- Implement code splitting for JavaScript bundles
+- Remove unused CSS and JavaScript
+
+3. Performance Enhancements:
+- Enable HTTP/2 or HTTP/3 protocols
+- Implement browser caching with proper cache headers
+- Use CDN for static assets delivery
+- Preload critical resources
+
+4. Monitoring:
+- Set up performance metrics tracking (LCP, FID, CLS)
+- Create automated performance testing in CI/CD pipeline
+- Establish performance budgets for key metrics
+
+5. Progressive Enhancement:
+- Implement skeleton loading states
+- Prioritize above-the-fold content loading
+- Consider server-side rendering for critical pages
+
+Ensure all optimizations are tested across multiple devices and network conditions (3G, 4G, WiFi) using tools like Lighthouse and WebPageTest. Document all optimization techniques implemented and their measured impact on page load times.

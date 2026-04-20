@@ -1,0 +1,7 @@
+project_id = "reewcfpjlnufktvahtii"
+
+[functions.seed-demo-data]
+verify_jwt = false
+
+[db]
+major_version = 15
